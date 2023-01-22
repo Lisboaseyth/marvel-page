@@ -10,4 +10,9 @@ export const UlList = styled.ul`
     flex-wrap: wrap;
 
     margin-top: 70px;
+
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
 `

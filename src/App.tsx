@@ -1,3 +1,4 @@
+import { FooterPage } from './Components/Footer'
 import { HeaderPage } from './Components/Header'
 import { List } from './Components/ListCards'
 import GlobalStyle from './styles/style'
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <HeaderPage />
       <List />
+      <FooterPage />
       <GlobalStyle />
     </div>
   )

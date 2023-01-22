@@ -26,7 +26,7 @@ export const List = () => {
     <UlList>
         {
             comics.map((item, index) => (
-                <CardChar title={item.title} img={`${item.thumbnail.path}.${item.thumbnail.extension}`} key={index} />
+                <CardChar title={item.title} img={`${item.thumbnail.path}.${item.thumbnail.extension}`} key={index} pageCount={item.pageCount}/>
             ))
         }
     </UlList>

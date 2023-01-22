@@ -1,14 +1,15 @@
 import { SearchNormal1 } from 'iconsax-react'
 import Logo from '../../assets/marvelLogo.webp'
 import { HeaderPageStyled } from './style'
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export const HeaderPage = () => {
+
   return (
     <HeaderPageStyled>
-        <img src={Logo} alt="logoHeader" />
-        <div className='divAlign'>
-            <input type="text" placeholder='Pesquise seu quadrinho' /> <SearchNormal1 className='icon' size="20" color="#e90000"/>
-        </div>
+        <a className='aLogo' href="#">
+           <img src={Logo} alt="logoHeader" />
+        </a>
     </HeaderPageStyled>
   )
 }

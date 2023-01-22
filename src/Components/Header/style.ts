@@ -2,15 +2,17 @@ import styled from "styled-components";
 
 export const HeaderPageStyled = styled.header`
 
-    width: 100%;
-    height: 80px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
 
-    margin-top: -70px;
+    width: 100%;
+    height: 70px;
+
+    top: 0;
     
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 
     position: fixed;
 
@@ -18,36 +20,23 @@ export const HeaderPageStyled = styled.header`
 
     background-color: #FFFFFF;
 
+    .aLogo{
+        background-color: transparent;
 
-    .divAlign{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 10px;
+        -webkit-transition: 0.3s ease-out;
+        -moz-transition: 0.3s ease-out;
+        -o-transition: 0.3s ease-out;
+        transition: 0.3s ease-out;
+    }
 
-        background-color: #E9E9E9;
-        border-radius: 10px;
+    .aLogo:hover{
+        
+        transform: scale(1.2, 1.2);
 
-        input{
-            width: 200px;
-            height: 30px;
-
-            background-color: #F2F2F2;
-
-            border: none;
-            border-radius: 5px;
-
-            padding: 5px 15px;
-
-            margin-right: 5px;
-
-            font-size: 20px;
-        }
-
-        .icon{
-            background-color: transparent;
-        }
-
+        -webkit-transition: 0.3s ease-out;
+        -moz-transition: 0.3s ease-out;
+        -o-transition: 0.3s ease-out;
+        transition: 0.3s ease-out;
     }
 
     img{
