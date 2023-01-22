@@ -23,6 +23,7 @@ export const HeaderPageStyled = styled.header`
     .aLogo{
         background-color: transparent;
 
+        
         -webkit-transition: 0.3s ease-out;
         -moz-transition: 0.3s ease-out;
         -o-transition: 0.3s ease-out;
